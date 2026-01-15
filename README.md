@@ -1,5 +1,7 @@
 ![2f4c1767266451.png](https://picoserver.cn/content/uploadfile/202601/c5481768225502.png)
 
+**[简体中文](README.md)|[English](README.en.md)**
+
 ### 🛠️ PicoServer是什么？
 > PicoServer 是一款 .NET 生态的 **轻量级 Web 请求胶水库**，主打 “集成至上、灵活嵌入”，可直接嵌入任意 .NET 应用快速搭建 Web API。
 

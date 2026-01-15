@@ -44,25 +44,25 @@ PicoServer 是一款可内嵌的轻量级高性能跨平台 WebAPI 框架，可�
 
 最简单的方式是直接在nuget下载安装。
 
-[NuGet Gallery | MicroServer](https://www.nuget.org/packages/PicoServer)
+[NuGet Gallery | PicoServer](https://www.nuget.org/packages/PicoServer)
 
 ##### 命令行安装
 1. NET CLI 命令（推荐，跨平台通用）
   ```bash
-   dotnet add package MicroServer
+   dotnet add package PicoServer
   ```
 
 
 2. Package Manager 控制台命令（Visual Studio 内使用）
  ```bash
-   Install-Package MicroServer
+   Install-Package PicoServer
  ```
 
 #### **2. VB.NET 示例 (VB.NET Example)**
 
 ```vb
 Imports System.Net
-Imports MicroServer
+Imports PicoServer
 
 Module FastTest
     Private ReadOnly MyAPI As New WebAPIServer
@@ -83,7 +83,7 @@ End Module
 
 ```csharp
 using System.Net;
-using MicroServer;
+using PicoServer;
 
 namespace FastTestNamespace
 {

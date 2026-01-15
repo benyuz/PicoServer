@@ -1,8 +1,8 @@
-### **MicroServer**
+### **PicoServer**原(MicroServer)
 
 **给你的程序快速加个WebAPI。**
 
-MicroServer 是一款可内嵌的轻量级高性能跨平台 WebAPI 框架，可直接嵌入到各类 .NET 应用中快速搭建轻量级 WebAPI 服务，无需依赖 IIS 或 Kestrel。基于 .NET Standard 2.0 构建，开箱即用、不侵入业务、集成简单，完美支持跨平台及 AOT 编译。
+PicoServer 是一款可内嵌的轻量级高性能跨平台 WebAPI 框架，可直接嵌入到各类 .NET 应用中快速搭建轻量级 WebAPI 服务，无需依赖 IIS 或 Kestrel。基于 .NET Standard 2.0 构建，开箱即用、不侵入业务、集成简单，完美支持跨平台及 AOT 编译。
 
 ---
 
@@ -20,9 +20,9 @@ MicroServer 是一款可内嵌的轻量级高性能跨平台 WebAPI 框架，可
 
 ### **项目介绍 (Project Description)**
 
-这是一个为开发者打造的内嵌式高性能跨平台 WebAPI 框架。MicroServer不做大而全的框架，也不做小而全的框架，MicroServer的目标是做WEB请求转发管理和通信连接，让你能够**快速、无痛**地为任何 .NET 程序（无论是 VB.NET 还是 C#）添加 WebAPI 能力，而无需依赖 IIS 等复杂的 Web 服务器，MicroServer内置了 简单token 验证和 JWT 验证，你也可以基于MicroServer的路由映射和中间件二次开发做出更多功能和集成。
+这是一个为开发者打造的内嵌式高性能跨平台 WebAPI 框架。PicoServer不做大而全的框架，也不做小而全的框架，PicoServer的目标是做WEB请求转发管理和通信连接，让你能够**快速、无痛**地为任何 .NET 程序（无论是 VB.NET 还是 C#）添加 WebAPI 能力，而无需依赖 IIS 等复杂的 Web 服务器，MicroServer内置了 简单token 验证和 JWT 验证，你也可以基于PicoServer的路由映射和中间件二次开发做出更多功能和集成。
 
-**一句话总结：** MicroServer = 一个 DLL + 几行代码 = 你的程序拥有了 WebAPI。
+**一句话总结：** PicoServer = 一个 DLL + 几行代码 = 你的程序拥有了 WebAPI。
 
 ---
 
@@ -44,7 +44,7 @@ MicroServer 是一款可内嵌的轻量级高性能跨平台 WebAPI 框架，可
 
 最简单的方式是直接在nuget下载安装。
 
-[NuGet Gallery | MicroServer](https://www.nuget.org/packages/MicroServer)
+[NuGet Gallery | MicroServer](https://www.nuget.org/packages/PicoServer)
 
 ##### 命令行安装
 1. NET CLI 命令（推荐，跨平台通用）
@@ -111,29 +111,13 @@ namespace FastTestNamespace
 
 ---
 
-### **详细文档 (Documentation)**
+### **官方文档 (Documentation)**
+[https://picoserver.cn/](https://picoserver.cn/)
 
-
-*   **[WebAPI 服务端](docs/webapi-server.md)**
-    *   路由管理
-    *   响应客户端（文字、文件）
-    *   授权验证（Token, JWT）
-    *   路由白名单
-*   **[WebSocket 客户端](docs/websocket-client.md)**
-    *   连接与断开
-    *   发送与接收消息
-    *   心跳机制
-*   **[高级特性](docs/advanced.md)**
-    *   灵活映射
-    *   中间件
-    *   跨平台支持
-    *   AOT 编译优化
-
----
 
 ### **贡献指南 (Contributing)**
 
-感谢你的兴趣！欢迎你为 MicroServer 贡献代码、报告 Bug 或提出新功能建议。
+感谢你的兴趣！欢迎你为 PicoServer 贡献代码、报告 Bug 或提出新功能建议。
 
 ---
 
